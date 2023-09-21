@@ -19,7 +19,10 @@ yarn add angular-material-badge
 In your document head, include:
 
 ```html
-<link rel="stylesheet" href="node_modules/angular-material-badge/angular-material-badge.min.css" />
+<link
+	rel="stylesheet"
+	href="node_modules/angular-material-badge/angular-material-badge.min.css"
+/>
 ```
 
 Use the md-badge where you wish:
@@ -40,4 +43,13 @@ Include the module in your application:
 
 ```javascript
 var application = angular.module('Application', ['ngMdBadge']);
+```
+
+## Build
+
+```
+npm install
+mkdir build
+cd source
+make
 ```
