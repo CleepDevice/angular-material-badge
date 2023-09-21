@@ -78,19 +78,7 @@
       }, false);
 	}
 
-	if (window.addEventListener) {
-		test('DOMSubtreeModified');
-		test('DOMNodeInserted');
-      test('DOMNodeRemoved');
-	} else {
-		decide();
-   }
-
-	/*
-	var dummy = document.createElement('div');
-   element.appendChild(dummy);
-   element.removeChild(dummy);
-	*/
+   decide();
 
 	window.onDOMChange = onDOMChange;
 })(window);
