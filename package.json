@@ -7,15 +7,15 @@
   "author": "Juan Manuel <jmouriz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.6.5",
-    "angular-animate": "^1.6.5",
-    "angular-aria": "^1.6.5",
-    "angular-material": "^1.1.4"
+    "angular": "^1.8.2",
+    "angular-animate": "^1.8.2",
+    "angular-aria": "^1.8.2",
+    "angular-material": "^1.2.4"
   },
   "devDependencies": {
     "angular-marked": "^1.2.2",
     "angular-material-icons": "^0.7.1",
-    "minify": "^3.0.1",
-    "prismjs": "^1.6.0"
+    "minify": "^10.5.2",
+    "prismjs": "^1.29.0"
   }
 }
